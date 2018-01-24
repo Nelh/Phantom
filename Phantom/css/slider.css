@@ -1,0 +1,59 @@
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+.slider-text{
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  padding-left: 90px;
+}
+.carousel{
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+.carousel-inner{
+  position: relative;
+  top: -80px;
+  left: 10px;
+}
+.carousel-item h1{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+.carousel-item p{
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #92a1a5;
+}
+.carousel-indicators{
+  display: block;
+  position: relative;
+  top: -20px;
+  left: -80px;
+}
+.carousel-indicators .active{
+  background-color: red;
+}
+.carousel-indicators li{
+  width: 5px;
+  height: 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-top: 10px;
+}
